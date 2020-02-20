@@ -4,7 +4,9 @@
   "description": "Simple node/express server with minimal MVC setup for database testing and etc.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,6 @@
     "axios": "^0.18.0",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "pg": "^7.9.0",
-    "pg-hstore": "^2.3.2",
     "sequelize": "^5.2.8",
     "sequelize-cli": "^5.4.0"
   }

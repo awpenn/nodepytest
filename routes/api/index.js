@@ -5,6 +5,7 @@ const dbController = require('../../controllers/dbController');
 router.route('/')
         .get(dbController.test)
 
-
+router.route('/runpy')
+        .get(dbController.runpy)
 module.exports = router;
            
